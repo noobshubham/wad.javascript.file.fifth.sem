@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation DOM</title>
+  </head>
+  <body>
+    <h1>This is a Nevigation</h1>
+    <div id="page" class="container">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Result</li>
+        <li>About us</li>
+      </ul>
+    </div>
+    <div id="form" class="container"></div>
+    <p>
+      This is a new page in JavaScript.</p>
+    <script>
+      // use by document Id:
+      let page = document.getElementById("page");
+      console.log(page);
+      // Use by document class name:
+      let container = document.getElementsByClassName("container");
+      console.log(container);
+    </script>
+  </body>
+</html>
