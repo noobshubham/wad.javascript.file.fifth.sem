@@ -1,1 +1,1 @@
-# wad.javascript.file
+# Web Application Development Project File
